@@ -16,7 +16,7 @@ spec:
       terminationGracePeriodSeconds: 5
       containers:
       - name: server
-        image: <IMAGE:TAG>
+        image: juanmesauy/app:productcatalogservice
         ports:
         - containerPort: 3550
         env:
